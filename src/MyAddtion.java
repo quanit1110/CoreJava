@@ -1,4 +1,3 @@
-package javaprogramming;
 
 public class MyAddtion {
 	public int addInt(int a, int b){

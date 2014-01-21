@@ -1,4 +1,3 @@
-package coreJavaChap2;
 
 public class ForLoopSample {
 	public static void main(String args[]) {

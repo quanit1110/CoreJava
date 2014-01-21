@@ -1,4 +1,3 @@
-package coreJavaChap2;
 
 public class Example2 {
 
