@@ -46,14 +46,14 @@ public class PrimitiveAndObjectReferenceDifference {
 
 		//Using local variable without initialization.
 		//It will throw compilation error that variable __ might not have been initialized.
-		System.out.println (ii);
-		System.out.println (dd);
-		System.out.println (cc);
-		System.out.println (ss);
-		System.out.println (ff);
-		System.out.println (ll);
-		System.out.println (stt);
-		System.out.println (bb);
+//		System.out.println (ii);
+//		System.out.println (dd);
+//		System.out.println (cc);
+//		System.out.println (ss);
+//		System.out.println (ff);
+//		System.out.println (ll);
+//		System.out.println (stt);
+//		System.out.println (bb);
 		
 	}
 	
