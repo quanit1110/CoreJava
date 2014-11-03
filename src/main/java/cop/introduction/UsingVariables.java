@@ -36,6 +36,7 @@ public class UsingVariables {
     }
 
     public static void printMe() {
+        //Creating object of class.
         UsingVariables uv = new UsingVariables();
         System.out.println("Printing values of instance variable in static method : " + uv.myInstanceVariable);
         System.out.println("Accessing Instance Method in Static Method through object ");
