@@ -21,4 +21,16 @@ public class ClassContentDemo {
     public void printInstanceMethod() {
         System.out.println("Wooooohoooo I am in Instance Method");
     }
+
+    //Static block
+    static {
+        System.out.println("I am static block.");
+    }
+
+    //Instance block
+    {
+        System.out.println("I am instance block.");
+
+    }
+
 }
