@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Java Question and Answers </title>
+	</head>
+<body>
+	<h1><center><font color=red> JAVA TUTORIAL </font></center></h1>
+	<h2> ** What are objects? </h2>
+	<p> --> Objects are combination of data and methods that can communicate with that data. It is an instance of class. It has characteristics of states and behaviour. Stores its states in fields and exposes its behaviour through methods. </p>
+	
+	<h2> ** What is data encapsulation? </h2>
+	<p> --> Hiding all internal state and requiring all interaction to be perfomed through an objects methods is known as data encapsulation -- a fundamental principle of object oriented programming.</p>
+
+	<h2> ** What is class? </h2>
+	<p> --> Class is the blueprint from which individual objects are created. For eg. There may be 1000 of bicycle in existence, all of same kind and model.Each bicycle was built from the same set of blueprints and therefore contains the same components.We say that my bicycle is instance of class of objects known as bicycle. </p>
+
+	<h2>** What are instance variables? </h2>
+	<p>--> Data of Java objects are stored in instance variable. Also called a fields. It can come from base type (integers, float, Booleans) or they can refer to objects of other classes. </p>
+
+	<h2> ** What are methods? </h2>
+	<p>--> The operations that can act on data, expressing the "messages" objects respond to are called methods.</p>
+
+	<h2>** Why to declare class as public?</h2>
+	<p>--> Declaring class as public means any other class can create and use its object.</p>
+
+	<h2>** What are identifiers?</h2>
+	<p>--> Name of class, methods, variables are called identifiers which can be any string of characters as long as it begins with character and consists of letters, numbers and underscore. </p>
+
+	<h2>** What are class modifier?</h2>
+	<p>--> Class modifiers are the optional keywords that precede the class keyword. Different types of class modifiers are abstract, final, public , default(if nothing specified then it is default)</p>
+
+	<h2>** What are abstract class?</h2>
+	<p>--> Class that contains abstract methods. Abstract methods must be declared by abstract keywords and are empty i.e. don't have body.  Abstract class can contain abstract methods, actual methods and instance variables. </p>
+
+	<h2>** What are interface?</h2>
+	<p>--> Interface are 100% abstract class. It contains only abstract methods and no instance variables. It forms contract between the classes and the outside world and this contract is enforced at the build time by the compiler.</p>
+
+	<h2>** What are final class?</h2>
+	<p>--> Class that do not have subclass. </p>
+
+	<h2>** What are public class?</h2>
+	<p>--> Class that can be instantiated and extended by anything in same package or by anything that imports that class.
+	Public class must be declare in its own separate file called classname.java (classname is name of class).</p>
+
+	<h2>** What are wrapper class?</h2>
+	<p>--> Sometimes, we need to store numbers as objects, but base types numbers are not themselves object. To get around this obstacle, Java has defined wrapper class for each numeric base type. After Java SE 5, a creation operation is performed automatically anytime we pass a base number to a method expecting a corresponding object. </p>
+
+	<h2>** What is concatenation?</h2>
+	<p>--> The primary operation for combining two strings is called concatenation, which takes a string P and string Q combines them into a new string. Every object in Java is assumed to have built in method toString() that returns a string associated with that object.</p> 
+
+	<h2>** What is method signature?</h2>
+	<p>--> Method's name combined with the number and type of its parameters. Note that the signature of method does not include the type that the method returns, so Java does not allow two methods with the same signature to return different types. </p>
+
+	<h2>** What is the purpose of Object Reference Variable?</h2>
+	<p>--> The primary use of object reference variable is to access the members of its class. That is, an ORV is useful for accessing the methods and instance variables associated with an object. This access is performed by dot (.) operator. </p>
+
+	<h2>** What are scope of Variable modifier?</h2>
+	<p>--> Scope of  instance variable can be controlled through the use of following variable modifier:</p>
+		<ul>
+		<li> public : Anyone can access public instance variable.</li>
+		<li> protected: Only methods of the same package or its subclasses can access protected instance variable.</li>
+		<li> private: Only methods of the same class (not method of subclass) can access private instance variable.</li>
+		<li> default: Instance variable can be accessed by any class in the same package. </li>
+	</ul>
+
+	<p>These all are also called SCOPE MODIFIER of instance variable.</p>
+
+	<h2>** What are usage modifier of the instance variable?</h2>
+	<p>--> Usage modifiers are:</p>
+		<ul>
+			<li> static : to declare a variable associated with the class and not with individual instances of that class. Used to store global information about a class. Static variable exists even if no instance of their class is created.</li>
+			<li> final : that must be assigned an initial value, and then never be assigned new value after that. If an object variable is final, then it will always refer to the same object, even if that object changes its internal state.</li>
+		</ul>
+	<h2>** What is the purpose of methods?</h2>
+	<p>--> Method allows programmer to send message to an object. The method signature specifies how such object should look and the method body specifies what the object will do when it receives such a message. 
+	Method has two parts: (a) signature that defines name and parameters for the methods and (b) the body, that defines what the method does. </p>
+
+	<h2>** What are method modifier</h2>
+	<p>--> It restrict the scope of methods.</p>
+		<ul>
+			<li> public : Anyone can call public method.</li>
+			<li> protected : Only methods of the same package or of subclasses can call protected method.</li>
+			<li> private : Only methods of the same class (not the methods of subclass) can call private method.</li>
+			<li> default : By objects of the class within same package.</li>
+			<li> abstract : Abstract method can appear within the abstract class only. It has no body. </li>
+			<li> final : Cannot be overridden by subclass. </li>
+			<li> static : associated with the class and not with a particular instance of the class. Static method is used to change the state of static instance variable associated with the class (provided these variables are not declared as final).</li>
+		</ul>
+		
+	<h2>** what is inheritance?</h2>
+	<p>--></p>
+
+
+	<h2>** What is use of super() keyword?</h2>
+	<p>--> While inheriting the class, Java provides only inheritance of fields and methods i.e. it only allows inheritance of members of the class. Constructors are not members of the class thus they are not inherited by subclass, but they can be invoked by subclass by using the keyword super().</p>
+
+	<h2> ** What are different kind of variables? </h2>
+	<ul>
+		<li> Instance Variable (Non-Static fields) - Object store their individual states in "non - static field". It is also called instance variable because their values are unique to each instance of a class i.e. to each object. For eg. currentSpeed of one bicycle is independent from the currentSpeed of another. </li>
+		<li> Class Variable (Static fields) - field declared with static modifier. This tells complier that exactly one copy of this variable in existence, regardless how many objects have been created. </li>
+		<li> Local Variable - Method will often store its temporary state in local variables. Local variables are only accessible by the method in which they are declared, they are not accessible from the rest of the class. </li>
+		<li> Parameters - They are always classified as "variables" and not "fields". This applies to other parameter - accepting constructs as well. </li>
+	</ul>
+	<p> "Fields" excludes local variables and parameters. And variables includes all of the above. </p>
+
+	<h2> ** What are members of the class? </h2>
+	<p> A type's fields, metods and nested types are collectively called members. </p>
+
+	<h2> When byte data type is useful? </h2>
+	<p> Byte data type can be useful for saving memory in large arrays, where the memory savings actually matters. </p>
+
+	<h2> What are default values? What is difference between fields and local variables in terms of default values? </h2>
+	<p> It is not always necessary to assign a value when a field is declared. Fields that are declared but not initialized will be set to a reasonable default (0 or null) depend on datatype by the compiler. While Local variables are slightly different. The compiler never assigns a default value to an uninitialized local variable. If you cannot initialize local variable where it is declared, make sure to assig it a value before you attempt to use it. Accessing an uninitialized local variable will result in compile time error. </p>
+
+
+</body>
+</html>
