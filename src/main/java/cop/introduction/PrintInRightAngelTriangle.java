@@ -9,19 +9,20 @@ public class PrintInRightAngelTriangle {
         String input = name;
         String newInput = "";
         for (int i = 0; i < input.length(); i++) {
-            char c = input.charAt(i);
-            newInput += c;
+            newInput+= input.charAt(i);
             System.out.println(newInput);
         }
+        System.out.println ("Checking the new Input String now : " + newInput);
     }
 
     public void printSymbol(int number) {
         int n = number;
-        String input = "";
+        String input="";
         for (int i = 0; i < number; i++) {
-            input += "*";
-            System.out.println(input);
+            System.out.println (input += "*");
+           // System.out.println(input);
         }
+        System.out.println ("Checking the input string now : " + input);
     }
 
     public static void main(String[] args) {
